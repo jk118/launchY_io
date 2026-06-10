@@ -1,0 +1,6 @@
+{
+  "name": "LaunchY.io",
+  "description": "AI Launch Video Generator",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

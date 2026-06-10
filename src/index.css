@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-violet-500: #8B5CF6;
+  --color-violet-600: #7C3AED;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0A] text-white antialiased selection:bg-violet-600/30 selection:text-white;
+  }
+}
+
+/* Custom scrollbar for deep dark */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
